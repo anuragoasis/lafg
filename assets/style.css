@@ -1,0 +1,93 @@
+#theme {
+  background-color: rgb(243, 243, 241);
+}
+
+#demotheme {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#box {
+  background-color: #fff;
+}
+
+.navbar {
+/*  background: transparent!important;*/
+/*  backdrop-filter: blur(10px);*/
+}
+
+#header {
+  color: #afc6ff;
+  background-color: black;
+}
+#two {
+    color: #d4af37;
+    background-color: #0d1b2a;
+}
+
+.btn-blue, .btn-blue:hover, .btn-blue:active, .btn-blue:visited {
+  color: #001d35;
+  background: #c2e7ff;
+}
+
+.btn-pink, .btn-pink:hover, .btn-pink:active, .btn-pink:visited {
+  color: rgb(30, 35, 48);
+  background: rgb(233, 192, 233);
+}
+
+.btn-site, .btn-site:hover, .btn-site:active, .btn-site:visited {
+  color:white !important;
+  background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%) !important;
+}
+  
+.btn-linkedin, .btn-linkedin:hover, .btn-linkedin:active, .btn-linkedin:visited {
+  color:white !important;
+  background:#0a66c2 !important;
+}
+
+.btn-yt, .btn-yt:hover, .btn-yt:active, .btn-yt:visited {
+  color:white !important;
+  background: #f5222d !important;
+}
+  
+.btn-hits, .btn-hits:hover, .btn-hits:active, .btn-hits:visited {
+  color:white !important;
+  background-color: #4c6ef5 !important;
+}
+  
+.btn-fb, .btn-fb:hover, .btn-fb:active, .btn-fb:visited {
+  color:white !important;
+  background-color:#1877f2 !important;
+}
+  
+.btn-insta, .btn-insta:hover, .btn-insta:active, .btn-insta:visited {
+  color: white !important;
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;
+}
+
+.btn-twitter, .btn-twitter:hover, .btn-twitter:active, .btn-twitter:visited {
+  color:white !important;
+  background-color:#1DA1F2 !important;
+}
+
+.btn-kofi, .btn-kofi:hover, .btn-kofi:active, .btn-kofi:visited {
+  color:white !important;
+  background:#ff5f5f !important;
+}
+
+.btn-hits:hover, .btn-kofi:hover, .btn-fb:hover, .btn-insta:hover, .btn-yt:hover, .btn-site:hover, .btn-twitter:hover, .btn-pink:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  background: rgb(0,0,0);
+  color: #fff;
+}
+
+#tilt {
+  transform-style: preserve-3d;
+  transform: perspective(1000px); 
+}
+
+#pop {
+  transform: translateZ(20px);
+}
